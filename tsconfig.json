@@ -8,14 +8,16 @@
       "path": "./tsconfig.node.json"
     }
   ],
- {
   "compilerOptions": {
-    "esModuleInterop": true,
+    "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
-    ...
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx"
   }
 }
-
-}
-// This file is required by tsconfig.json and is used for configuring TypeScript compiler options.
