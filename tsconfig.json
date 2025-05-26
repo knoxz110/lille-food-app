@@ -8,11 +8,14 @@
       "path": "./tsconfig.node.json"
     }
   ],
+ {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    ...
   }
+}
+
 }
 // This file is required by tsconfig.json and is used for configuring TypeScript compiler options.
