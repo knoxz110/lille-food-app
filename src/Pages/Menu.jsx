@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FoodSection from '../components/FoodSection';
+import FoodSection from '../Components/FoodSection';
 import DrinkSection from '../Components/DrinkSection'
 
 const Menu = () => {
